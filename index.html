@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Business Parks | L&T Realty</title>
+	<meta name="robots" content="index, follow">
+	<link rel="icon" href="src/img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="src/img/favicon.ico" sizes="192x192" />
+    <link rel="apple-touch-icon" href="src/img/favicon.ico" />
+    <meta name="msapplication-TileImage" content="src/img/favicon.ico"/>
+    <meta name="title" content="Business Parks | L&T Realty">
+    <meta name="description" content="Business Parks | L&T Realty">
+    <meta property="og:title" content="Business Parks | L&T Realty" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="L&amp;T Realty" />
+	<link rel="stylesheet" type="text/css" href="src/css/style.css?ver=1.2">
+	<link rel="stylesheet" type="text/css" href="src/css/custom-fonts.css?ver=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" defer>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/_exWVY_hlNJJl2Abm8pI9i1L/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-0ekdM7lV68sbOr8s62kW4bKzV9c9AvM3TResBrO9+nRRWySSYhcWJaLDjqUe69Or"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;ver=1" id="google_captcha_js-js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	
+    
+</head>
+<body>
+
+	<div class="headers">
+	<div class="header-navs header container-fluid">
+		<div class="header-navigaton-logo">
+			<a href="https://www.lntrealty.com/" target="_blank" title="L&T Realty">
+				<img class="lazyload desktop-img" src="src/img/lnt-logo.webp" alt="L&T Logo">
+				<img class="lazyload mobile-img" src="src/img/lnt-logo.webp" alt="L&T Logo">
+			</a>
+		</div>
+		<div class="header-navigaton-menu">
+			<ul class="header-navs-lists">
+				<li>
+					<a href="https://www.lntrealty.com/?s=%20"><img src="src/img/icon-search.webp"></a>
+				</li>
+				<li><a href="https://eservices-lntrealty.force.com/s" target="_blank"><img src="src/img/icon-user.webp"></a></li>
+			</ul>
+			<span class="navtoggles" onclick="openNav()"><img src="src/img/nav-menus.webp" onmouseover="this.src='src/img/icon-menu-full.webp'" onmouseout="this.src='src/img/nav-menus.webp'"></span>
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="src/img/close-img-blue.webp" onmouseover="this.src='src/img/close-img-yellow.webp'" onmouseout="this.src='src/img/close-img-blue.webp'"></a>
+
+				<div class="sidebar-navigations">
+					<div class="mobilesearchboxes">
+						<form>
+							<input type="search" name="search" placeholder="Search...">
+							<button type="submit"><img src="src/img/icon-search.webp"></button>
+						</form>
+					</div>
+
+					<div class="desktop-navigations">
+						<h3>Take me to</h3>
+						<nav class="navbar navbar-expand-md">
+							<div class="collapse navbar-collapse" id="navbarNavDropdown">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="https://www.lntrealty.com/residences/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_blank" title="Residences">Residences</a>
+										<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+											<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" title="Ongoing">Ongoing</a>
+												<ul class="dropdown-menu dropthirdmenu">
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/77-crossroads-flats-in-mumbai/" target="_blank" title="77 Crossroads, Mumbai">77 Crossroads, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-elixir-reserve-powai-mumbai/" target="_blank" title="Elixir Reserve">Elixir Reserve</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/flats-in-hebbal-raintree-boulevard-bengaluru/" target="_blank" title="Raintree Boulevard - Hebbal, Bengaluru">Raintree Boulevard - Hebbal, Bengaluru</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/flats-in-mulund-mumbai-rejuve360/" target="_blank" title="Rejuve 360 - Mulund, Mumbai">Rejuve 360 - Mulund, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/2-3-bhk-flats-in-seawoods-navi-mumbai/" target="_blank" title="Seawoods Residences - Navi Mumbai">Seawoods Residences - Navi Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/veridian-emerald-isle/" target="_blank" title="Veridian - Powai, Mumbai">Veridian - Powai, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/west-square-seawoods-residences-navi-mumbai/" target="_blank" title="West Square - Navi Mumbai">West Square - Navi Mumbai</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" title="Completed">Completed</a>
+												<ul class="dropdown-menu dropthirdmenu">
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-parel-crescent-bay-parel-mumbai/" target="_blank" title="Crescent Bay – Parel, Mumbai">Crescent Bay – Parel, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-powai-emerald-isle-powai-mumbai/" target="_blank" title="Emerald Isle - Powai, Mumbai">Emerald Isle - Powai, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/flats-in-hebbal-raintree-boulevard-bengaluru/" target="_blank" title="Raintree Boulevard - Hebbal, Bengaluru">Raintree Boulevard - Hebbal, Bengaluru</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/residences/vihaan-vadodara-gujarat/" target="_blank" title="Vihaan - Vadodara, Gujarat">Vihaan - Vadodara, Gujarat</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="https://www.lntrealty.com/offices/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_blank" title="Commercial">Commercial</a>
+										<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+											<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" title="Offices for BTS and Leasing">Offices for BTS and Leasing</a>
+												<ul class="dropdown-menu dropthirdmenu">
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-tech-park-hebbal-bengaluru/" target="_blank" title="L&T Tech Park, Bengaluru">L&T Tech Park, Bengaluru</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-innovation-campus-chennai/" target="_blank" title="L&T Innovation Campus, Chennai">L&T Innovation Campus, Chennai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-business-towers-powai-w/" target="_blank" title="L&T Business Towers, Mumbai">L&T Business Towers, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-commercial-towers-powai-w-mumbai/" target="_blank" title="L&T Commercial Towers, Mumbai">L&T Commercial Towers, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-technology-center-iv-powai-mumbai/" target="_blank" title="L&T Technology Center IV, Mumbai">L&T Technology Center IV, Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/commercial-property-in-navi-mumbai-seawoods-grand-central-navi-mumbai/" target="_blank" title="Seawoods Grand Central, Navi Mumbai">Seawoods Grand Central, Navi Mumbai</a></li>
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-business-park-mathura-road-delhi/" target="_blank" title="L&T Business Park, Delhi">L&T Business Park, Delhi</a></li>
+												</ul>
+											</li>
+											<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#" title="Completed">Completed</a>
+												<ul class="dropdown-menu dropthirdmenu">
+													<li><a class="dropdown-item" href="https://www.lntrealty.com/offices/lt-business-park-powai-mumbai/" target="_blank" title="L&T Business Park, Mumbai">L&T Business Park, Mumbai</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/about-us/" target="_blank" title="About Us">About Us</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/about-lt/" target="_blank" title="Our Lineage">Our Lineage</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/partner-with-us/" target="_blank" title="Partner With Us">Partner With Us</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/nri/" target="_blank" title="NRI Corner">NRI Corner</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/careers/" target="_blank" title="Careers">Careers</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/news-blogs/" target="_blank" title="News & Blogs">News & Blogs</a></li>
+									<li class="nav-item"><a class="nav-link" href="https://www.lntrealty.com/csr/" target="_blank" title="Sustainability">Sustainability</a></li>
+								</ul>
+							</div>
+						</nav>
+					</div>
+
+					<nav class="dropdown">
+						<h3>Take me to</h3>
+						
+                        <ul>
+                            <li class="Top_menu_toggle dropdown-btn" onclick="Arrow(arrow_one)">Residences<i class="fa fa-angle-down" id="arrow_one"></i></li>
+                            <li class="Top_menu_toggle dropdown-container">
+                                <div class="dropdown-btn">Ongoing <i class="fa fa-angle-down"></i></div>
+                                <div class="dropdown-container">
+                                    <ul>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/77-crossroads-flats-in-mumbai/" target="_blank" title="77 Crossroads, Mumbai">77 Crossroads, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-elixir-reserve-powai-mumbai/" target="_blank" title="Elixir Reserve">Elixir Reserve</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/flats-in-hebbal-raintree-boulevard-bengaluru/" target="_blank" title="Raintree Boulevard - Hebbal, Bengaluru">Raintree Boulevard - Hebbal, Bengaluru</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/flats-in-mulund-mumbai-rejuve360/" target="_blank" title="Rejuve 360 - Mulund, Mumbai">Rejuve 360 - Mulund, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/2-3-bhk-flats-in-seawoods-navi-mumbai/" target="_blank" title="Seawoods Residences - Navi Mumbai">Seawoods Residences - Navi Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/veridian-emerald-isle/" target="_blank" title="Veridian - Powai, Mumbai">Veridian - Powai, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/west-square-seawoods-residences-navi-mumbai/" target="_blank" title="West Square - Navi Mumbai">West Square - Navi Mumbai</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-btn">Completed<i class="fa fa-angle-down"></i></div>
+                                <div class="dropdown-container">
+                                    <ul>
+                                    	<li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-parel-crescent-bay-parel-mumbai/" target="_blank" title="Crescent Bay – Parel, Mumbai">Crescent Bay – Parel, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-powai-emerald-isle-powai-mumbai/" target="_blank" title="Emerald Isle - Powai, Mumbai">Emerald Isle - Powai, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/flats-in-hebbal-raintree-boulevard-bengaluru/" target="_blank" title="Raintree Boulevard - Hebbal, Bengaluru">Raintree Boulevard - Hebbal, Bengaluru</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/residences/vihaan-vadodara-gujarat/" target="_blank" title="Vihaan - Vadodara, Gujarat">Vihaan - Vadodara, Gujarat</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="Top_menu_toggle dropdown-btn" onclick="Arrow(arrow_one)">Commercial<i class="fa fa-angle-down" id="arrow_one"></i></li>
+                            <li class="Top_menu_toggle dropdown-container">
+                                <div class="dropdown-btn">Offices for BTS and Leasing <i class="fa fa-angle-down"></i></div>
+                                <div class="dropdown-container">
+                                    <ul>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-tech-park-hebbal-bengaluru/" target="_blank" title="L&T Tech Park, Bengaluru">L&T Tech Park, Bengaluru</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-innovation-campus-chennai/" target="_blank" title="L&T Innovation Campus, Chennai">L&T Innovation Campus, Chennai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-business-towers-powai-w/" target="_blank" title="L&T Business Towers, Mumbai">L&T Business Towers, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-commercial-towers-powai-w-mumbai/" target="_blank" title="L&T Commercial Towers, Mumbai">L&T Commercial Towers, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-technology-center-iv-powai-mumbai/" target="_blank" title="L&T Technology Center IV, Mumbai">L&T Technology Center IV, Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/commercial-property-in-navi-mumbai-seawoods-grand-central-navi-mumbai/" target="_blank" title="Seawoods Grand Central, Navi Mumbai">Seawoods Grand Central, Navi Mumbai</a></li>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-business-park-mathura-road-delhi/" target="_blank" title="L&T Business Park, Delhi">L&T Business Park, Delhi</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-btn">Completed<i class="fa fa-angle-down"></i></div>
+                                <div class="dropdown-container">
+                                    <ul>
+                                        <li class="Last_lvl_dropdown"><a href="https://www.lntrealty.com/offices/lt-business-park-powai-mumbai/" target="_blank" title="L&T Business Park, Mumbai">L&T Business Park, Mumbai</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/about-us/" target="_blank">About Us</a></li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/about-lt/" target="_blank">Our Lineage</a></li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/partner-with-us/" target="_blank">Partner With Us</a></li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/nri/" target="_blank">NRI Corner</a></li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/careers/" target="_blank">Careers</a></li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/news-blogs/" target="_blank">News & Blogs</a></li>
+                            <li class="Top_menu_toggle"><a href="https://www.lntrealty.com/csr/" target="_blank">Sustainability</a></li>
+                        </ul>
+                    </nav>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="banner-section">
+		<div class="banner-inner-section">
+			<img class="lazyload desktop-img" src="src/img/desktop-masterhead.webp" alt="L&T Realty Business Parks">
+			<img class="lazyload mobile-img" src="src/img/mobile-masterhead.webp" alt="L&T Realty Business Parks">
+		</div>
+		<div class="banner-texts">
+			<h1>L&T Realty Business Parks</h1>
+		</div>
+	</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<section>
+		<div class="innner-container-bg">
+		<div class="container">
+			<div class="row innner-row-bg masterabout-inner-row">
+				<div class="col-12">
+					<div class="projects-title">
+						<h2>L&T REALTY BUSINESS PARKS</h2>
+						<p>Revel in an exclusive living experience in L&T Realty’s thoughtfully designed 2 BHK flats in Mumbai. Your very own haven that adorns finesse in every corner. Every inch exudes style, enhanced with impressive features that depict pure elegance. Further complemented by contemporary kitchen spaces made with premium fittings, granite platforms and stainless-steel sinks. All what’s left? For you to come home, delight in a lifestyle that translates your dreams into a beautiful reality.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	    </div>
+	</section>
+
+
+
+	<div class="clearfix"></div>
+
+	<section>
+		<div class="innner-container-bg">
+		<div class="container">
+			<div class="row innner-row-bg">
+				<div class="col-12">
+					<div class="projects-title">
+						<h2>L&T Tech Park, Hebbal, Bangalore</h2>
+						<p>L&T Tech Park is the office section of the 65-acre L&T campus.</p>
+						<p>Located in Hebbal, North Bangalore, It is positioned at a prime location on the 16 lane National Highway and the Elevated expressway to the Airport. It houses 3.7 million sq. ft. of IT/ITES Office space. With easy access to different parts of the city along with engineering and construction prowess of L&T, this Park is set to become the most favoured address for knowledge & technology companies.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <div class="innner-project-section innner-project-bg-yellow">
+	    	<div class="innner-project-col innner-project-medias innner-project-medias-tech-park-hebbal-bangalore"></div>
+	    	<div class="innner-project-col innner-project-details innner-project-bg-yellow">
+	    		<h2>Features</h2>
+	    		<ul>
+	    			<li>Destination controlled high speed elevators with sensor based passenger restriction technology.</li>
+	    			<li>Thermal Screening Scanners in common areas.</li>
+	    			<li>AHUs with UV Lamps & Active Carbon Filters.</li>
+	    			<li>Energy Efficient Building & Systems utilizing renewable solar energy.</li>
+	    			<li>Environmental Friendly Reused & Recycled Construction material.</li>
+	    			<li>100% STP water recycling for drip irrigation, cooling towers, dual flushing etc.</li>
+	    			<li>Native & adaptive species of flora used for landscaping.</li>
+	    		</ul>
+	    		<h2>Location</h2>
+	    		<address><i class="bi bi-geo-alt"></i> L&T Innovation Campus, Gate No. 2, L&T Powai Campus, Saki Vihar Road, Powai, Mumbai, India.</address>
+	    		<div class="projects-details-ctas">
+	    			<a href="https://www.lntrealty.com/offices/lt-tech-park-hebbal-bengaluru/" target="_blank">view details</a>
+	    		</div>
+	    	</div>
+	    </div>
+	</section>
+
+	<div class="clearfix"></div>
+
+	<section>
+		<div class="innner-container-bg">
+		<div class="container">
+			<div class="row innner-row-bg">
+				<div class="col-12">
+					<div class="projects-title">
+						<h2>L&T Innovation Campus, Chennai</h2>
+						<p>L&T Innovation Campus is a mixed use development sprawling over 40 acres. The Campus is located on Mount Poonamalle Road, Manapakkam, Chennai. Currently In Phase-I, the two towers can accommodate 1.05 Million sq. ft. of leasable space with the potential for a total of 6.5 million sq. ft. to be leased in the future.</p>
+						<p>The property is centrally located with easy access to the Domestic & International airport, as well as to other major parts of city. Its seamless connectivity paired with the engineering and construction prowess of L&T Realty, make the L&T Innovation Campus a highly desirable address for information & technology organisations.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <div class="innner-project-section innner-project-bg-blue">
+	    	<div class="innner-project-col innner-project-medias innner-project-medias-innovation-campus-chennai"></div>
+	    	<div class="innner-project-col innner-project-details innner-project-bg-blue">
+	    		<h2>Features</h2>
+	    		<ul>
+	    			<li>Plot abutting 30m (100’) wide road with Exclusive Entry & Exit for IT development.</li>
+	    			<li>Basements / Stilts for parking + 10 to 12 Office floors.</li>
+	    			<li>Office space will be warm shell with core area / toilets fully finished.</li>
+	    			<li>Double height GF entrance lobby & drop-off/pick-up canopies.</li>
+	    			<li>24/7 3 tier security with integrated BMS system.</li>
+	    			<li>Common amenities include food court, gym, creche, retail etc.</li>
+	    		</ul>
+	    		<h2>Location</h2>
+	    		<address><i class="bi bi-geo-alt"></i> L&T Innovation Campus, Mount Poonamallee Road, Manapakkam, Chennai – 600089, Tamil Nadu.</address>
+	    		<div class="projects-details-ctas">
+	    			<a href="https://www.lntrealty.com/offices/lt-innovation-campus-chennai/" target="_blank">view details</a>
+	    		</div>
+	    	</div>
+	    </div>
+	</section>
+
+	<div class="clearfix"></div>
+
+	<section>
+		<div class="innner-container-bg">
+		<div class="container">
+			<div class="row innner-row-bg">
+				<div class="col-12">
+					<div class="projects-title">
+						<h2>L&T Innovation Campus, Mumbai</h2>
+						<p>L&T Innovation Campus is a well-planned high-end commercial property in Powai, Mumbai. Strategically located at Powai, this leasable office space is well connected to the international airport, metro station & lies at the axis of the Eastern & Western Express Highways. The IT/ITES Office space overlook Powai and Aarey greens, inviting companies to the towers available for lease.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	    </div>
+	    <div class="innner-project-section innner-project-bg-yellow">
+	    	<div class="innner-project-col innner-project-medias innner-project-medias-innovation-campus-mumbai"></div>
+	    	<div class="innner-project-col innner-project-details innner-project-bg-yellow">
+	    		<h2>Features</h2>
+	    		<ul>
+	    			<li>Building configuration – 3B+G+18.</li>
+	    			<li>Modern Elevation with double glazed unitized façade system.</li>
+	    			<li>Double height Grand Entrance Lobbies.</li>
+	    			<li>High efficiency, MEP systems & Smart technology.</li>
+	    			<li>Integrated development including office, residences, retail, school & medical center.</li>
+	    			<li>Amenities : Crèche, Health Club, Café , Food Court, ATM etc.</li>
+	    		</ul>
+	    		<h2>Location</h2>
+	    		<address><i class="bi bi-geo-alt"></i> L&T Innovation Campus, Gate No. 2, L&T Powai Campus, Saki Vihar Road, Powai, Mumbai, India.</address>
+	    		<div class="projects-details-ctas">
+	    			<a href="https://www.lntrealty.com/offices/lt-innovation-towers-powai-w-mumbai/" target="_blank">view details</a>
+	    		</div>
+	    	</div>
+	    </div>
+	</section>
+
+	<div class="clearfix"></div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+					<div class="footer-widgets">
+						<h4>Residential Projects</h4>
+						<ul>
+							<li><a href="https://www.lntrealty.com/residences/77-crossroads-flats-in-mumbai/" target="_blank" title="77 Crossroads, Mumbai">77 Crossroads, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-parel-crescent-bay-parel-mumbai/" target="_blank" title="Crescent Bay – Parel, Mumbai">Crescent Bay – Parel, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-elixir-reserve-powai-mumbai/" target="_blank" title="Elixir Reserve">Elixir Reserve</a></li>
+							<li><a href="https://www.lntrealty.com/residences/luxury-2-3-4-bhk-flats-in-powai-emerald-isle-powai-mumbai/" target="_blank" title="Emerald Isle - Powai, Mumbai">Emerald Isle - Powai, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/residences/flats-in-hebbal-raintree-boulevard-bengaluru/" target="_blank" title="Raintree Boulevard - Hebbal, Bengaluru">Raintree Boulevard - Hebbal, Bengaluru</a></li>
+							<li><a href="https://www.lntrealty.com/residences/flats-in-mulund-mumbai-rejuve360/" target="_blank" title="Rejuve 360 - Mulund, Mumbai">Rejuve 360 - Mulund, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/residences/2-3-bhk-flats-in-seawoods-navi-mumbai/" target="_blank" title="Seawoods Residences, Navi Mumbai">Seawoods Residences, Navi Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/residences/veridian-emerald-isle/" target="_blank" title="Veridian - Powai, Mumbai">Veridian - Powai, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/residences/vihaan-vadodara-gujarat/" target="_blank" title="Vihaan - Vadodara, Gujarat">Vihaan - Vadodara, Gujarat</a></li>
+							<li><a href="https://www.lntrealty.com/residences/west-square-seawoods-residences-navi-mumbai/" target="_blank" title="West Square - Navi Mumbai">West Square - Navi Mumbai</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6">
+					<div class="footer-widgets">
+						<h4>Commercial Projects</h4>
+						<ul>
+							<li><a href="https://www.lntrealty.com/offices/lt-business-park-powai-mumbai/" target="_blank" title="L&T Business Park, Mumbai">L&T Business Park, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/offices/commercial-property-in-navi-mumbai-seawoods-grand-central-navi-mumbai/" target="_blank" title="Seawoods Grand Central, Navi Mumbai">Seawoods Grand Central, Navi Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/offices/lt-business-towers-powai-w/" target="_blank" title="L&T Business Towers, Mumbai">L&T Business Towers, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/offices/lt-commercial-towers-powai-w-mumbai/" target="_blank" title="L&T Commercial Towers, Mumbai">L&T Commercial Towers, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/offices/lt-technology-center-iv-powai-mumbai/" target="_blank" title="L&T Technology Center IV, Mumbai">L&T Technology Center IV, Mumbai</a></li>
+							<li><a href="https://www.lntrealty.com/offices/lt-tech-park-hebbal-bengaluru/" target="_blank" title="L&T Tech Park, Bengaluru">L&T Tech Park, Bengaluru</a></li>
+							<li><a href="https://www.lntrealty.com/offices/lt-business-park-mathura-road-delhi/" target="_blank" title="L&T Business Park, Delhi">L&T Business Park, Delhi</a></li>
+							<li><a href="https://www.lntrealty.com/offices/lt-innovation-campus-chennai/" target="_blank" title="L&T Innovation Campus, Chennai">L&T Innovation Campus, Chennai</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="footer-widgets">
+						<h4>About L&T Realty</h4>
+						<ul>
+							<li><a href="https://www.lntrealty.com/about-lt/" title="Our Lineage" target="_blank">Our Lineage</a></li>
+							<li><a href="https://www.lntrealty.com/partner-with-us/" title="Partner with us" target="_blank">Partner with us</a></li>
+							<li><a href="https://www.lntrealty.com/news-blogs/" title="News & Blogs" target="_blank">News & Blogs</a></li>
+							<li><a href="https://www.lntrealty.com/csr/" title="Sustainability" target="_blank">Sustainability</a></li>
+							<li><a href="https://www.lntrealty.com/sitemap/" title="Sitemap" target="_blank">Sitemap</a></li>
+							<li><a href="https://www.lntrealty.com/careers/" title="Careers" target="_blank">Careers</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
+					<div class="footer-widgets">
+						<h4>Other Imp Links</h4>
+						<ul>
+							<li><a href="https://www.lntrealty.com/nri/" title="NRI Corner" target="_blank">NRI Corner</a></li>
+							<li><a href="https://www.lntrealty.com/know-your-rera/" title="Know Your RERA" target="_blank">Know Your RERA</a></li>
+							<li><a href="https://www.lntrealty.com/buyers-guide/" title="Buyers Guide" target="_blank">Buyers Guide</a></li>
+							<li><a href="https://eservices-lntrealty.force.com/s" title="Customer Login" target="_blank">Customer Login</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-12 col-12">
+					<div class="bottom-footer-widgets">
+						<h4>Connect With Us</h4>
+						<ul>
+							<li><a href="https://www.youtube.com/lntrealtyofficial" title="Youtube" target="_blank"><img src="src/img/youtube.webp" alt="youtube"></a></li>
+							<li><a href="https://www.facebook.com/LnTRealty/" title="Facebook" target="_blank"><img src="src/img/facebook.webp" alt="facebook"></a></li>
+							<li><a href="https://www.instagram.com/lntrealty.official/" title="Instagram" target="_blank"><img src="src/img/instagram.webp" alt="instagram"></a></li>
+							<li><a href="https://www.linkedin.com/company/l&t-realty" title="Linkedin" target="_blank"><img src="src/img/linkedin.webp" alt="Linkedin"></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row align-items-center justify-content-center">
+				<div class="col-12">
+					<div class="bottom-footer-widgets">
+						<p>All rights reserved &nbsp;&nbsp;|&nbsp;&nbsp; © 2022 LARSEN &amp; TOUBRO LIMITED. &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.lntrealty.com/disclaimer-privacy-policy" title="Disclaimer &amp; Privacy Policy">Disclaimer &amp; Privacy Policy</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<div class="clearfix"></div>
+
+
+	<div class="sidebar-widgets">
+		<ul>
+			<li><a href="tel:+919902599025" title="Call"><img src="src/img/call-img-icon.webp"><span>Call</span></a></li>
+			<li><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span>Enquire</span><img src="src/img/enquiry-img-icon.webp"> </button></li>
+		</ul>
+	</div>
+
+	<div class="scroll-section">
+		<a href="#" id="scroll" style="display: none;"><span><i class="bi bi-arrow-up-short"></i></span></a>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-form">
+				<h2>Enquire Now <span><button type="button" class="popupclose" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x"></i></button></span></h2>
+				<div class="popupforms">
+				<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="enq_form">
+                <input type="hidden" name="oid" value="00D0o0000019inP"/>
+                <input type="hidden" name="retURL" id="retURL"/>
+                <input type="hidden" name="company" value="none"/>
+                <input type="hidden" name="00N0o00000M4sL1" value="1" id="00N0o00000M4sL1"/>
+                <input  id="00N0o00000N2c50" name="00N0o00000N2c50" type="hidden" /><br/>
+                <input id="lead_source" name="lead_source" type="hidden" value="Website"/>
+                <div class="form-group">
+                    <div class="form-item">
+                    	<input class="fullinput" id="last_name" maxlength="100" name="last_name" size="40" type="text" placeholder="Name" />
+                    </div>
+                    <div class="form-item">
+                    	<input class="fullinput" id="email" maxlength="80" name="email" size="20" type="email" placeholder="Email" />
+                    </div>
+                    <div class="form-item">
+                    	<select id="00N0o00000M4sL6" name="00N0o00000M4sL6" title="Country Code" class="sel-cc">
+                    		<option value="91" selected="selected">91</option>
+                            <option value="1">1</option>
+                            <option value="1242">1242</option>
+                            <option value="1246">1246</option>
+                            <option value="1264">1264</option>
+                            <option value="1268">1268</option>
+                            <option value="1284">1284</option>
+                            <option value="1340">1340</option>
+                            <option value="1345">1345</option>
+                            <option value="1441">1441</option>
+                            <option value="1473">1473</option>
+                            <option value="1649">1649</option>
+                            <option value="1664">1664</option>
+                            <option value="1670">1670</option>
+                            <option value="1671">1671</option>
+                            <option value="1684">1684</option>
+                            <option value="1721">1721</option>
+                            <option value="1758">1758</option>
+                            <option value="1767">1767</option>
+                            <option value="1784">1784</option>
+                            <option value="1787">1787</option>
+                            <option value="1809">1809</option>
+                            <option value="1829">1829</option>
+                            <option value="1849">1849</option>
+                            <option value="1868">1868</option>
+                            <option value="1869">1869</option>
+                            <option value="1876">1876</option>
+                            <option value="1939">1939</option>
+                            <option value="20">20</option>
+                            <option value="211">211</option>
+                            <option value="212">212</option>
+                            <option value="213">213</option>
+                            <option value="216">216</option>
+                            <option value="218">218</option>
+                            <option value="220">220</option>
+                            <option value="221">221</option>
+                            <option value="222">222</option>
+                            <option value="223">223</option>
+                            <option value="224">224</option>
+                            <option value="225">225</option>
+                            <option value="226">226</option>
+                            <option value="227">227</option>
+                            <option value="228">228</option>
+                            <option value="229">229</option>
+                            <option value="230">230</option>
+                            <option value="231">231</option>
+                            <option value="232">232</option>
+                            <option value="233">233</option>
+                            <option value="234">234</option>
+                            <option value="235">235</option>
+                            <option value="236">236</option>
+                            <option value="237">237</option>
+                            <option value="238">238</option>
+                            <option value="239">239</option>
+                            <option value="240">240</option>
+                            <option value="241">241</option>
+                            <option value="242">242</option>
+                            <option value="243">243</option>
+                            <option value="244">244</option>
+                            <option value="245">245</option>
+                            <option value="246">246</option>
+                            <option value="248">248</option>
+                            <option value="249">249</option>
+                            <option value="250">250</option>
+                            <option value="251">251</option>
+                            <option value="252">252</option>
+                            <option value="253">253</option>
+                            <option value="254">254</option>
+                            <option value="255">255</option>
+                            <option value="256">256</option>
+                            <option value="257">257</option>
+                            <option value="258">258</option>
+                            <option value="260">260</option>
+                            <option value="261">261</option>
+                            <option value="262">262</option>
+                            <option value="263">263</option>
+                            <option value="264">264</option>
+                            <option value="265">265</option>
+                            <option value="266">266</option>
+                            <option value="267">267</option>
+                            <option value="268">268</option>
+                            <option value="269">269</option>
+                            <option value="27">27</option>
+                            <option value="290">290</option>
+                            <option value="291">291</option>
+                            <option value="297">297</option>
+                            <option value="298">298</option>
+                            <option value="299">299</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="350">350</option>
+                            <option value="351">351</option>
+                            <option value="352">352</option>
+                            <option value="353">353</option>
+                            <option value="354">354</option>
+                            <option value="355">355</option>
+                            <option value="356">356</option>
+                            <option value="357">357</option>
+                            <option value="358">358</option>
+                            <option value="359">359</option>
+                            <option value="36">36</option>
+                            <option value="370">370</option>
+                            <option value="371">371</option>
+                            <option value="372">372</option>
+                            <option value="373">373</option>
+                            <option value="374">374</option>
+                            <option value="375">375</option>
+                            <option value="376">376</option>
+                            <option value="377">377</option>
+                            <option value="378">378</option>
+                            <option value="379">379</option>
+                            <option value="380">380</option>
+                            <option value="381">381</option>
+                            <option value="382">382</option>
+                            <option value="383">383</option>
+                            <option value="385">385</option>
+                            <option value="386">386</option>
+                            <option value="387">387</option>
+                            <option value="389">389</option>
+                            <option value="39">39</option>
+                            <option value="40">40</option>
+                            <option value="41">41</option>
+                            <option value="420">420</option>
+                            <option value="421">421</option>
+                            <option value="423">423</option>
+                            <option value="43">43</option>
+                            <option value="44">44</option>
+                            <option value="441481">441481</option>
+                            <option value="441534">441534</option>
+                            <option value="441624">441624</option>
+                            <option value="45">45</option>
+                            <option value="46">46</option>
+                            <option value="47">47</option>
+                            <option value="48">48</option>
+                            <option value="49">49</option>
+                            <option value="500">500</option>
+                            <option value="501">501</option>
+                            <option value="502">502</option>
+                            <option value="503">503</option>
+                            <option value="504">504</option>
+                            <option value="505">505</option>
+                            <option value="506">506</option>
+                            <option value="507">507</option>
+                            <option value="508">508</option>
+                            <option value="509">509</option>
+                            <option value="51">51</option>
+                            <option value="52">52</option>
+                            <option value="53">53</option>
+                            <option value="54">54</option>
+                            <option value="55">55</option>
+                            <option value="56">56</option>
+                            <option value="57">57</option>
+                            <option value="58">58</option>
+                            <option value="590">590</option>
+                            <option value="591">591</option>
+                            <option value="592">592</option>
+                            <option value="593">593</option>
+                            <option value="595">595</option>
+                            <option value="597">597</option>
+                            <option value="598">598</option>
+                            <option value="599">599</option>
+                            <option value="60">60</option>
+                            <option value="61">61</option>
+                            <option value="62">62</option>
+                            <option value="63">63</option>
+                            <option value="64">64</option>
+                            <option value="65">65</option>
+                            <option value="66">66</option>
+                            <option value="670">670</option>
+                            <option value="672">672</option>
+                            <option value="673">673</option>
+                            <option value="674">674</option>
+                            <option value="675">675</option>
+                            <option value="676">676</option>
+                            <option value="677">677</option>
+                            <option value="678">678</option>
+                            <option value="679">679</option>
+                            <option value="680">680</option>
+                            <option value="681">681</option>
+                            <option value="682">682</option>
+                            <option value="683">683</option>
+                            <option value="685">685</option>
+                            <option value="686">686</option>
+                            <option value="687">687</option>
+                            <option value="688">688</option>
+                            <option value="689">689</option>
+                            <option value="690">690</option>
+                            <option value="691">691</option>
+                            <option value="692">692</option>
+                            <option value="7">7</option>
+                            <option value="81">81</option>
+                            <option value="82">82</option>
+                            <option value="84">84</option>
+                            <option value="850">850</option>
+                            <option value="852">852</option>
+                            <option value="853">853</option>
+                            <option value="855">855</option>
+                            <option value="856">856</option>
+                            <option value="86">86</option>
+                            <option value="880">880</option>
+                            <option value="886">886</option>
+                            <option value="90">90</option>
+                            <option value="92">92</option>
+                            <option value="93">93</option>
+                            <option value="94">94</option>
+                            <option value="95">95</option>
+                            <option value="960">960</option>
+                            <option value="961">961</option>
+                            <option value="962">962</option>
+                            <option value="963">963</option>
+                            <option value="964">964</option>
+                            <option value="965">965</option>
+                            <option value="966">966</option>
+                            <option value="967">967</option>
+                            <option value="968">968</option>
+                            <option value="970">970</option>
+                            <option value="971">971</option>
+                            <option value="972">972</option>
+                            <option value="973">973</option>
+                            <option value="974">974</option>
+                            <option value="975">975</option>
+                            <option value="976">976</option>
+                            <option value="977">977</option>
+                            <option value="98">98</option>
+                            <option value="992">992</option>
+                            <option value="993">993</option>
+                            <option value="994">994</option>
+                            <option value="995">995</option>
+                            <option value="996">996</option>
+                            <option value="998">998</option>
+                        </select>
+                        <input id="mobile" maxlength="15" minlength="" name="mobile" size="20" type="tel" placeholder="Mobile" class="input-mobile onlydigit halfinput" />
+                    </div>
+                    <div class="form-item">
+                    	<select id="00N0o00000N39bD" name="00N0o00000N39bD" title="Projects" class=" sel-prop fullinput">
+                    		<option> -- Select a Property --</option>
+                    		<option id="a000o00004EPMRZAA5" name="00N0o00000M4U4U" value="L&T Tech Park, Bengaluru">L&T Tech Park, Bengaluru</option>
+                    		<option id="a000o00004EPMRZAA5" name="00N0o00000M4U4U" value="L&amp;T Innovation Campus, Chennai">L&amp;T Innovation Campus, Chennai</option>
+                    		<option id="a000o00004EPMRZAA5" name="00N0o00000M4U4U" value="L&amp;T Innovation Campus, Mumbai">L&amp;T Innovation Campus, Mumbai</option>
+                    	</select>
+                    </div>
+                    <div class = "g-recaptcha" data-sitekey = "6LeUAaEcAAAAANrwUTwzLh5idRgETA0m90Ge8hiP" ></div>
+                    <div class="lnt_form_msg"></div>
+                </div>
+                <div class="form-group text-center">
+                	<div class="position-relative align-items-center">
+                		<button type="submit" class="btn-submit lnt-btn" id="enq_sub_btn">Submit</button>
+                	</div>
+                </div>
+                </form>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script>
+		function querySt() {
+			para = window.location.search.substring(1);
+			return para;
+		}
+		window.onload = function() {
+			var urlpara= querySt();
+			document.getElementById("00N0o00000N2c50").value = urlpara;
+		};
+	</script>
+	<script>
+	    jQuery(function ($) {
+	    	$(document).ready(function() {
+	    		var onloadCallback = function () {
+	    			var googlesitekey = "6LeUAaEcAAAAANrwUTwzLh5idRgETA0m90Ge8hiP";
+                        if ($('#enq_form').length) {
+                            grecaptcha.render('g-recaptcha-floating', {
+                                sitekey: googlesitekey,
+                            });
+                        }
+                    };
+                    setTimeout(function () {
+                        onloadCallback();
+                    }, 1500);
+                });
+                function querySt() {
+                	para = window.location.search.substring(1);
+                	return para;
+                }
+                window.onload = function() {
+                	var thankyouurl = window.location.hash.substr(1);
+                	function querySt() {
+                		para = window.location.search.substring(1);
+                        return para;
+                    }
+                    var plainUrl = window.location.protocol + "//" + window.location.hostname + window.location.pathname;
+                    var urlpara = querySt();
+                    $("#enq_form .query-string").attr("value", urlpara);
+                    $("#enq_form #retURL").attr("value", "https://lntrealty.com/campaigns/development/noida/launchsite/thankyou.html");
+                }
+                function call(cc, mob) {
+                	var phone = $.trim(mob);
+                	var country_code = $.trim(cc);
+                	var phone_num = country_code + phone;
+                	console.log(parseInt(phone_num), "callnumber");
+                	makecallNormal(parseInt(phone_num));
+                }
+                $("#enq_sub_btn").click(function(){
+                    var last_name_lnt = $("#enq_form #last_name").val();
+                    var email_lnt = $("#enq_form #email").val();
+                    var mobile_cc = $("#enq_form .sel-cc").val();
+                    var mobile_lnt = $("#enq_form #mobile").val();
+                    var sel_prop = $("#enq_form .sel-prop").val();
+                    var catcha_value = $("#enq_form .sel-catcha").val();
+
+                    var mobile_filter = /^\d*(?:\.\d{1,2})?$/;
+                    var fcharacter_filter = /^[a-zA-Z]{2,40}$/;
+                    var lcharacter_filter = /^[a-zA-Z.'-]{1,40}$/;
+                     
+                    var emailRegEx= /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                    var email_validation=emailRegEx.test(email_lnt);
+
+                    var mobile_digit_valid = mobile_filter.test(mobile_lnt);
+                    var lname_valid = lcharacter_filter.test(last_name_lnt);
+
+                    if(last_name_lnt == "" || last_name_lnt.trim() == ""){
+                    	$("#enq_form .lnt_form_msg").html("Please Enter Full Name");
+                    	return false;
+                    }
+                    // else if(! lname_valid){
+                    //     $("#enq_form .lnt_form_msg").html("Please Enter Valid Full Name");
+                    //     return false;
+                    // }
+                    else if(email_lnt == "" || email_lnt.trim() == ""){
+                        $("#enq_form .lnt_form_msg").html("Please Enter Email");
+                        return false;
+                    }else if(! email_validation){
+                        $("#enq_form .lnt_form_msg").html("Please Enter Valid Email");
+                        return false;
+                    }else if(mobile_lnt == "" || mobile_lnt.trim() == ""){
+                        $("#enq_form .lnt_form_msg").html("Please Enter Mobile");
+                        return false;
+                    }
+                    else if (mobile_cc == 91 && mobile_lnt.trim().length < 10) {
+                        $("#enq_form .lnt_form_msg").html("Please Enter Valid Mobile");
+                        return false;
+                    }
+                    else if (mobile_cc == 91 && mobile_lnt.trim().length > 10) {
+                        $("#enq_form .lnt_form_msg").html("Please Enter  Valid Mobile");
+                        return false;
+                    }                      
+                    else if(! mobile_digit_valid) {
+                        $("#enq_form .lnt_form_msg").html("Please Enter only Digit on Mobile input");
+                        return false;
+                    }else if(sel_prop == "" ){
+                        $("#enq_form .lnt_form_msg").html("Please Select Property");
+                        return false;
+                    }
+                    else{
+                        if (grecaptcha.getResponse()) {
+                            $('.google_captcha_error_floating').hide();
+                            if ($("#enq_form .ins-callback").is(":checked") == true)
+                            {
+                              call(mobile_cc, mobile_lnt);
+                            }
+                            $("#enq_form .lnt_form_msg").css("color", "green");
+                            $("#enq_form .lnt_form_msg").html("Form Validated Successfully");
+                            $("#enq_form").submit();
+                            return true; 
+                        } else {
+                            $('.google_captcha_error_floating').show();
+                            $("#enq_form .lnt_form_msg").html("Please Select Captcha");
+                           return false;
+                        }
+                        return true;                          
+                      }
+                  });
+                  });
+    </script>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="src/js/header-scroll.js" defer></script>
+	<script type="text/javascript" src="src/js/sidebarnav.js" defer></script>
+	<script type="text/javascript" src="src/js/mega-menus.js" defer></script>
+	<script type="text/javascript" src="src/js/scroll.js" defer></script>
+
+</body>
+</html>
